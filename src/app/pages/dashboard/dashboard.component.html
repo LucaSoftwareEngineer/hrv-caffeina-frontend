@@ -1,0 +1,38 @@
+
+
+  <div class="mt-[50px]">
+
+    <div class="max-w-sm mx-auto bg-white rounded-[14px] p-[20px]">
+      <div class="mb-5">
+        <label for="hr" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">HR</label>
+        <input type="text" id="hr" [(ngModel)]="hr" class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light" placeholder="Inserisci HR" required />
+      </div>
+      <div class="mb-5">
+        <label for="rr" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">RR</label>
+        <input type="text" id="rr" [(ngModel)]="rr" class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light" placeholder="Inserisci RR" required />
+      </div>
+      <div class="mb-5">
+        <label for="sdnn" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">SDNN</label>
+        <input type="text" id="sdnn" [(ngModel)]="sdnn" class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light" placeholder="Inserisci SDNN" required />
+      </div>
+      <div class="mb-5">
+        <label for="rmssd" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">RMSSD</label>
+        <input type="text" id="rmssd" [(ngModel)]="rmssd" class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light" placeholder="Inserisci RMSSD" required />
+      </div>
+      <div class="mb-5">
+        <label for="lf" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">LF</label>
+        <input type="text" id="lf" [(ngModel)]="lf" class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light" placeholder="Inserisci LF" required />
+      </div>
+      <div class="mb-5">
+        <label for="hf" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">HF</label>
+        <input type="text" id="hf" [(ngModel)]="hf" class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light" placeholder="Inserisci HF" required />
+      </div>
+      <div class="mb-5">
+        <label for="lf_su_hf" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">LF/HF</label>
+        <input type="text" id="lf_su_hf" [(ngModel)]="lf_su_hf" class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light" placeholder="Inserisci LF/HF" required />
+      </div>
+
+      <button (click)="verificaPresenzaCaffeina()" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">VERIFICA PRESENZA DI CAFFEINA</button>
+    </div>
+
+  </div>
